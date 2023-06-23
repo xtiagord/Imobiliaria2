@@ -136,17 +136,22 @@ header.shadow #search-icon{
 }
 
 .home{
-    min-height: 240px;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
     display: flex;
-    align-items:end;
-
+    align-items: center;
+    background: url(img/Background-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
 }
 
 #videoBG{
     position:absolute ;
     z-index: -1;
-    width: 100%;
-    height: auto;
+
 }
 .home-text{
    padding-left: 130px; 
