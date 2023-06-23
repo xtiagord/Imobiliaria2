@@ -40,7 +40,6 @@ img{
 }
 body{
     color: var(--text-color);
-    background-color: #000000;
 }
 .container{
     max-width: 1068px;
@@ -140,14 +139,15 @@ header.shadow #search-icon{
     max-width: 1300px;
     margin: auto;
     width: 100%;
-    min-height: 340px;
+    min-height: 640px;
     display: flex;
     align-items: center;
+    /*background: url(img/Background-home.png);*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
-    color: #f6f6f6;
     background-color: #000000;
+    color: #f6f6f6;
 }
 
 .home .video{
@@ -155,6 +155,7 @@ header.shadow #search-icon{
     max-width: 1300px;
     margin: auto;
     width: 100%;
+    height: 200%;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -573,7 +574,7 @@ header.shadow #search-icon{
 }
 
 @media (min-aspect-ratio: 16/9) {
-    video {
+    .video {
         width:100%;
         height: auto;
     }
